@@ -3,7 +3,7 @@
 <h2>Ein Beispieldatensatz mit 3.386 Datensätzen</h2>
 
 <a href="https://brightdata.de">
-    <img src="https://github.com/luminati-io/Metrocuadrado-Properties-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
+    <img src="https://github.com/bright-data-de/Metrocuadrado-Properties-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
 Dieses **Metrocuadrado Property Listings Dataset Sample** umfasst **3.386 Datensätze** und wurde mithilfe der **Bright Data API** extrahiert.
