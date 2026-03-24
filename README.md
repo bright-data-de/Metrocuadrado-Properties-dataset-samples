@@ -1,70 +1,70 @@
-# Metrocuadrado Property Listings Dataset Sample
+# Metrocuadrado-Immobilienanzeigen-Dataset-Beispiel
 
-<h2>Ein Beispieldatensatz mit 3.386 Datensätzen</h2>
+<h2>Ein Beispiel-Dataset mit 3.386 Datensätzen</h2>
 
 <a href="https://brightdata.de">
     <img src="https://github.com/bright-data-de/Metrocuadrado-Properties-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-Dieses **Metrocuadrado Property Listings Dataset Sample** umfasst **3.386 Datensätze** und wurde mithilfe der **Bright Data API** extrahiert.
+Dieses **Metrocuadrado-Immobilienanzeigen-Dataset-Beispiel** umfasst **3.386 Datensätze** und wurde mit der **Bright Data API** extrahiert.
 
-## Data Points
+## Datenpunkte
 
-| Field Name | Description |
+| Feldname | Beschreibung |
 |------------|-------------|
-| `url` | Die direkte URL zum spezifischen Immobilieninserat auf der Metrocuadrado-Website. |
-| `ID` | Eine eindeutige Kennung, die jedem Immobilieninserat zugewiesen wird. |
+| `url` | Die direkte URL zur spezifischen Immobilienanzeige auf der Metrocuadrado-Website. |
+| `ID` | Eine eindeutige Kennung, die jeder Immobilienanzeige zugewiesen ist. |
 | `Precio` | Der angegebene Preis der Immobilie, entweder zum Verkauf oder zur Miete, in lokaler Währung. |
-| `Habitaciones` | Die Gesamtanzahl der in der Immobilie verfügbaren Schlafzimmer. |
-| `Banos` | Die Gesamtanzahl der in der Immobilie verfügbaren Badezimmer. |
+| `Habitaciones` | Die Gesamtzahl der in der Immobilie verfügbaren Schlafzimmer. |
+| `Banos` | Die Gesamtzahl der in der Immobilie verfügbaren Badezimmer. |
 | `Dimension_propiedad` | Die gesamte bebaute Fläche der Immobilie in Quadratmetern. |
 | `Dimension_terreno` | Die gesamte Grundstücksfläche der Immobilie in Quadratmetern. |
-| `Comuna_Ciudad` | Die Stadt oder kommunale Gegend, in der sich die Immobilie befindet. |
-| `Type1` | Der Immobilientyp, z. B. „Apartamento“ oder „Casa lote“. |
-| `Venta_Arriendo` | Der Transaktionstyp, der angibt, ob die Immobilie zum Verkauf oder zur Miete angeboten wird. |
-| `Nuevo_Usado` | Gibt an, ob die Immobilie neu („Nuevo“) oder gebraucht („Usado“) ist. |
+| `Comuna_Ciudad` | Die Stadt oder das Gemeindegebiet, in dem sich die Immobilie befindet. |
+| `Type1` | Der Immobilientyp, wie z. B. 'Apartamento' oder 'Casa lote'. |
+| `Venta_Arriendo` | Der Transaktionstyp, der angibt, ob die Immobilie zum Verkauf oder zur Miete steht. |
+| `Nuevo_Usado` | Gibt an, ob die Immobilie neu ('Nuevo') oder gebraucht ('Usado') ist. |
 | `Region` | Die spezifische Region oder Nachbarschaft innerhalb der Stadt, in der sich die Immobilie befindet. |
-| `Estrato` | Die Klassifizierung der sozioökonomischen Schicht des Immobilienstandorts. |
+| `Estrato` | Die sozioökonomische Schichtenklassifizierung des Immobilienstandorts. |
 | `Parqueaderos` | Die Anzahl der zur Immobilie gehörenden Parkplätze. |
-| `Year` | Das Alter der Immobilie, typischerweise nach einem Jahresbereich kategorisiert. |
+| `Year` | Das Alter der Immobilie, typischerweise nach einer Jahresspanne kategorisiert. |
 | `Descripcion` | Eine detaillierte Beschreibung der Merkmale und Ausstattungen der Immobilie. |
-| `Seller` | Der Name der Person oder des Unternehmens, das die Immobilie verkauft oder vermietet. |
-| `Tipo_de_vendedor` | Der Verkäufertyp, z. B. „Owner“ oder „Agency“. |
+| `Seller` | Der Name der Person oder des Unternehmens, die bzw. das die Immobilie verkauft oder vermietet. |
+| `Tipo_de_vendedor` | Der Verkäufertyp, wie z. B. 'Owner' oder 'Agency'. |
 | `Phone1` | Primäre Kontakttelefonnummer für Anfragen zur Immobilie. |
-| `Phone2` | Sekundäre Kontakttelefonnummer für weitere Anfragen. |
+| `Phone2` | Sekundäre Kontakttelefonnummer für zusätzliche Anfragen. |
 | `Email` | Kontakt-E-Mail-Adresse für Anfragen zur Immobilie. |
-| `Imagen` | Eine URL, die zu einem Bild der Immobilie führt. |
-| `URL` | Ein doppeltes Feld für die direkte URL zum Immobilieninserat. |
+| `Imagen` | Eine URL, die auf ein Bild der Immobilie verweist. |
+| `URL` | Ein doppeltes Feld für die direkte URL zur Immobilienanzeige. |
 | `company_id` | Eine Kennung für das Unternehmen, das die Immobilie inseriert. |
 
 
-## Use Cases
+## Anwendungsfälle
 
-### 1. Real Estate Market Analysis
-Nutzen Sie diesen Datensatz, um Markttrends, Preisstrategien und Investitionsmöglichkeiten in verschiedenen Regionen zu identifizieren.
+### 1. Analyse des Immobilienmarkts
+Nutzen Sie dieses Dataset, um Markttrends, Preisstrategien und Investitionsmöglichkeiten in verschiedenen Regionen zu identifizieren.
 
-### 2. Competitive Analysis for Real Estate Agents
+### 2. Wettbewerbsanalyse für Immobilienmakler
 Makler können diese Daten nutzen, um Immobilienmerkmale und Preise zu vergleichen und so ihren Wettbewerbsvorteil auf dem Markt zu stärken.
 
-### 3. Urban Development Research
-Forscher können Urbanisierungsmuster und Wohnraumbedarf untersuchen und Stadtplanern dabei helfen, fundierte Entscheidungen zu treffen.
+### 3. Forschung zur Stadtentwicklung
+Forscher können Urbanisierungsmuster und Wohnraumnachfrage untersuchen und damit Stadtplaner bei fundierten Entscheidungen unterstützen.
 
 
 
-## File Formats
+## Dateiformate
 
-Der Datensatz ist in mehreren Formaten verfügbar:
-- **CSV** (in diesem Sample enthalten)
+Das Dataset ist in mehreren Formaten verfügbar:
+- **CSV** (in diesem Beispiel enthalten)
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
 - **Parquet**
-- **Compressed (.gz)**
+- **Komprimiert (.gz)**
 
-## Delivery Options
+## Bereitstellungsoptionen
 
-- **Email**
-- **API Download**
+- **E-Mail**
+- **API-Download**
 - **Webhook**
 - **Amazon S3**
 - **Google Cloud Storage**
@@ -72,26 +72,26 @@ Der Datensatz ist in mehreren Formaten verfügbar:
 - **Snowflake**
 - **SFTP**
 
-## Update Frequency
+## Aktualisierungshäufigkeit
 
-Datensätze können nach unterschiedlichen Zeitplänen aktualisiert werden:
-- **Once** (einmalige Lieferung)
-- **Daily**
-- **Weekly**
-- **Monthly**
-- **Quarterly**
-- **Custom schedules**
+Datasets können nach verschiedenen Zeitplänen aktualisiert werden:
+- **Einmalig** (einmalige Bereitstellung)
+- **Täglich**
+- **Wöchentlich**
+- **Monatlich**
+- **Vierteljährlich**
+- **Benutzerdefinierte Zeitpläne**
 
-## Data Enrichment
+## Datenanreicherung
 
-Erweitern Sie Ihren Datensatz mit zusätzlichen Datenpunkten basierend auf Ihren spezifischen Anforderungen. Kontaktieren Sie uns für benutzerdefinierte Enrichment-Optionen.
+Erweitern Sie Ihr Dataset mit zusätzlichen Datenpunkten basierend auf Ihren spezifischen Anforderungen. Kontaktieren Sie uns für benutzerdefinierte Anreicherungsoptionen.
 
-**[Get the full Metrocuadrado Property Listings dataset](https://brightdata.de/products/datasets/real-estate)**
+**[Holen Sie sich das vollständige Metrocuadrado-Immobilienanzeigen-Dataset](https://brightdata.de/products/datasets/real-estate)**
 
 ---
 
-## Free Access for Researchers and NGOs
+## Kostenloser Zugang für Forscher und NGOs
 
-Die Bright Initiative bietet akademischen Forschern, NGOs und NPOs, die an Umwelt- und Sozialthemen arbeiten, kostenlosen Zugang zu **[Web Scraper APIs](https://brightdata.de/products/web-scraper)** und **[ready-to-use datasets](https://brightdata.de/products/datasets)**. 
+Die Bright Initiative bietet kostenlosen Zugang zu **[Web Scraper APIs](https://brightdata.de/products/web-scraper)** und **[einsatzbereiten Datasets](https://brightdata.de/products/datasets)** für akademische Forscher, NGOs und NPOs, die an Umwelt- und Sozialthemen arbeiten. 
 
-Beantragen Sie den kostenlosen Zugang unter [brightinitiative.com](https://brightinitiative.com).
+Beantragen Sie kostenlosen Zugang unter [brightinitiative.com](https://brightinitiative.com).
